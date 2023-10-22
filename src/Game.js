@@ -5,5 +5,8 @@ import { Answer } from "./Model/Answer";
  */
 export class Game {
   //* game의 한 사이클
-  async game() {}
+  async game() {
+    const answer = new Answer();
+    const io = new IO();
+  }
 }
