@@ -16,4 +16,28 @@ export class Answer {
     }
     return answer.join("");
   }
+
+  /**
+   *
+   * @param {string} userInput
+   */
+  //* 사용자 입력의 ball갯수를 샙니다.
+  countBall(userInput) {}
+
+  /**
+   *
+   * @param {string} userInput
+   */
+  //* 사용자 입력의 strike갯수를 샙니다.
+  countStrike(userInput) {}
+
+  /**
+   *
+   * @param {string} userInput
+   */
+  //* 사용자 입력과 정답을 비교합니다
+  compareAnswer(userInput) {
+    const count = [0, 0];
+    count = [this.countStrike, this.countBall];
+  }
 }
