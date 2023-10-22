@@ -1,3 +1,5 @@
+import { Answer } from "./Model/Answer";
+
 /**
  * 게임 진행과 관련된 클래스
  */
